@@ -18,7 +18,7 @@
 ```
 ## 使用方法
 ### 项目编译
-打开终端,首先执行`cmake -B build`,在源码目录直接创建build文件并将编译文件写入其中;其次执行`cmake build build`,编译整个项目,并将编译结果写入build文件夹中.
+打开终端,首先执行`cmake -B build`,在源码目录直接创建build文件并将编译文件写入其中;其次执行`cmake --build build`,编译整个项目,并将编译结果写入build文件夹中.
 ### 执行项目
 使用`cd`指令到build文件夹:`cd ./build`,执行`./BasicCMakeProject`即可.
 
